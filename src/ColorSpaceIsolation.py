@@ -40,7 +40,7 @@ class ColorSpaceIsolation():
 
 if __name__ == "__main__":
     colorSpaceIsolation = ColorSpaceIsolation()
-    I = cv2.imread("../img/medieval.jpg")
+    I = cv2.imread("../img/samples/medieval.jpg")
 
     colorSpaceIsolation.displayWaldosHSV(I)
 
