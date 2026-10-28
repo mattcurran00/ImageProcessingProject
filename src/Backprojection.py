@@ -3,8 +3,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # Load the scene and a small crop of Waldo (the model)
-scene = cv2.imread("../img/medieval.jpg")
-model = cv2.imread("../data/backprojection/waldo.webp")
+scene = cv2.imread("../resources/img/extractedimages/Waldo_4.png")
+model = cv2.imread("../resources/img/templates/fullbody.png")
 
 h, w, d = scene.shape
 scene = cv2.resize(scene, dsize=(w//2, h//2))
